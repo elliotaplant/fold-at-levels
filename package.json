@@ -1,7 +1,7 @@
 {
-  "name": "toggle-fold-levels",
-  "displayName": "toggle-fold-levels",
-  "description": "Toggle folding and unfolding at numbered levels",
+  "name": "fold-at-levels",
+  "displayName": "fold-at-levels",
+  "description": "Folding and unfolding at numbered levels, similar to Atom's native folding",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.68.0"
@@ -10,14 +10,55 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:toggle-fold-levels.helloWorld"
+    "onCommand:fold-at-levels.foldAtLevel1",
+    "onCommand:fold-at-levels.foldAtLevel1",
+    "onCommand:fold-at-levels.foldAtLevel2",
+    "onCommand:fold-at-levels.foldAtLevel3",
+    "onCommand:fold-at-levels.foldAtLevel4",
+    "onCommand:fold-at-levels.foldAtLevel5",
+    "onCommand:fold-at-levels.foldAtLevel6",
+    "onCommand:fold-at-levels.foldAtLevel7",
+    "onCommand:fold-at-levels.foldAtLevel8",
+    "onCommand:fold-at-levels.foldAtLevel9"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "toggle-fold-levels.helloWorld",
-        "title": "Hello World"
+        "command": "fold-at-levels.foldAtLevel1",
+        "title": "Fold At Level 1"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel2",
+        "title": "Fold At Level 2"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel3",
+        "title": "Fold At Level 3"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel4",
+        "title": "Fold At Level 4"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel5",
+        "title": "Fold At Level 5"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel6",
+        "title": "Fold At Level 6"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel7",
+        "title": "Fold At Level 7"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel8",
+        "title": "Fold At Level 8"
+      },
+      {
+        "command": "fold-at-levels.foldAtLevel9",
+        "title": "Fold At Level 9"
       }
     ]
   },
@@ -37,6 +78,7 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "@vscode/test-electron": "^2.1.3",
+    "esbuild": "^0.14.43",
     "eslint": "^8.16.0",
     "glob": "^8.0.3",
     "mocha": "^10.0.0",
