@@ -2,7 +2,7 @@
   "name": "fold-at-levels",
   "displayName": "fold-at-levels",
   "description": "Folding and unfolding at numbered levels, similar to Atom's native folding",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "ElliotPlant",
   "repository": "https://github.com/elliotaplant/fold-at-levels",
   "icon": "images/icon.png",
