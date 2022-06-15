@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "ElliotPlant",
   "repository": "https://github.com/elliotaplant/fold-at-levels",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.68.0"
   },
